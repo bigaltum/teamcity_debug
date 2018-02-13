@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.teamcity/Experiments_dsl.iml" filepath="$PROJECT_DIR$/.teamcity/Experiments_dsl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/teamcity_debug.iml" filepath="$PROJECT_DIR$/.idea/teamcity_debug.iml" />
+    </modules>
+  </component>
+</project>
