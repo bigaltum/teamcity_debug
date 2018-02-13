@@ -4,10 +4,10 @@ import jetbrains.buildServer.configs.kotlin.v10.vcs.GitVcsRoot
 
 
 object Experiments_HttpsGithubComBigaltumTeamcityDebugGit : GitVcsRoot({
-    uuid = "65083fbf-2ab4-4939-9e5c-8706cd5e188c"
+    uuid = "c1c9d8b1-4a44-47ea-b48a-d0b2269a43ac"
     extId = "Experiments_HttpsGithubComBigaltumTeamcityDebugGit"
     name = "https://github.com/bigaltum/teamcity_debug.git"
     url = "https://github.com/bigaltum/teamcity_debug.git"
     branchSpec = "+:*"
-    authMethod = AuthMethod.Anonymous()
+    authMethod = anonymous()
 })
