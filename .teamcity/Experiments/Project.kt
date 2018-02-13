@@ -1,7 +1,7 @@
 package Experiments
 
 import Experiments.buildTypes.*
-import jetbrains.buildServer.configs.kotlin.v10.*
+import Experiments.vcsRoots.Experiments_HttpsGithubComBigaltumTeamcityDebugGit
 import jetbrains.buildServer.configs.kotlin.v10.Project
 
 object Project : Project({
@@ -12,4 +12,6 @@ object Project : Project({
 
     buildType(Experiments_Run)
     buildType(Experiments_Dep)
+
+    vcsRoot(Experiments_HttpsGithubComBigaltumTeamcityDebugGit)
 })
