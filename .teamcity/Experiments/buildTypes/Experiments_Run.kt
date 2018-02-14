@@ -15,6 +15,10 @@ object Experiments_Run : BuildType({
         }
     }
 
+    params {
+        param("debug_value", "")
+    }
+
     vcs {
         root(Experiments.vcsRoots.Experiments_HttpsGithubComBigaltumTeamcityDebugGit)
 
