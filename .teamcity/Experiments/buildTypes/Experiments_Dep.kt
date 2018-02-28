@@ -16,7 +16,8 @@ object Experiments_Dep : BuildType({
         script {
             name = "Debug"
             scriptContent = """
-                echo "%debug_number%"
+                echo "%debug_number%
+                exit 1"
             """.trimIndent()
         }
     }
